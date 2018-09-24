@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  MAPBOX_API_KEY: 'pk.eyJ1IjoiaG1vbnRlcyIsImEiOiJjam1mcXRndzAyc2xlM2tsa2M2dDBmMnk2In0.ijeeKQKgt4Rxo9-ncNCc9g'
 };
 
 /*
@@ -13,3 +14,5 @@ export const environment = {
  * because it will have performance impact when throw error
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+// https://www.youtube.com/watch?v=EHdSb279Lzg
